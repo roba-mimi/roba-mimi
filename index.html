@@ -1,67 +1,65 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ロバの耳</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      background-color: #fafafa;
       font-family: sans-serif;
+      background-color: #fff;
       color: #333;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 600px;
-      margin: 5em auto;
       text-align: center;
-      padding: 0 1em;
+      padding: 2em;
+      max-width: 600px;
+      margin: auto;
     }
     img {
-      width: 60%;
-      border-radius: 1em;
+      max-width: 100%;
+      height: auto;
     }
-    p {
+    form {
       margin-top: 2em;
-      font-size: 1.2em;
-      line-height: 1.6;
+      text-align: left;
     }
-    .links a {
+    textarea {
+      width: 100%;
+      font-size: 1em;
+    }
+    input[type="submit"] {
+      margin-top: 1em;
+      padding: 0.5em 1em;
+      font-size: 1em;
+    }
+    label {
       display: block;
       margin-top: 1em;
-      color: #333;
-      text-decoration: none;
-    }
-    .links a:hover {
-      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="roba.png" alt="ロバの耳">
-    <p>
-      ここは、ロバの耳。<br>
-      誰にも言えないことがあれば、ここにどうぞ。<br>
-      ロバが返事をすることもあります（有料）。
-    </p>
-    <div class="links">
-      <a href="https://formspree.io/f/xovyanvl">▶ 言えないことを書く</a>
-      <a href="https://example.com/ticket">▶ ロバに返事をもらう</a>
-    </div>
-  </div>
-#フォーム#
-<form action="https://formspree.io/f/xovyanvl" method="POST">
-  <label for="message">あなたの言いたいこと：</label><br>
-  <textarea name="message" id="message" rows="10" cols="50" required></textarea><br><br>
 
-  <label>
-    <input type="checkbox" name="anonymous_ok" value="yes">
-    この内容を匿名で公開してもいいです
-  </label><br><br>
+  <img src="donkey.png" alt="ロバのイラスト">
 
-  <input type="submit" value="ロバの耳にささやく">
-</form>
+  <h1>ここは、ロバの耳。</h1>
+  <p>誰にも言えないことがあれば、ここにどうぞ。</p>
+  <p>ロバが返事をすることもあります（有料）。</p>
+
+  <form action="https://formspree.io/f/xovyanvl" method="POST">
+    <label for="message">言えないことを書く：</label>
+    <textarea name="message" id="message" rows="10" required></textarea>
+
+    <label>
+      <input type="checkbox" name="anonymous_ok" value="yes">
+      この内容を匿名で公開してもいいです
+    </label>
+
+    <input type="submit" value="ロバの耳にささやく">
+  </form>
+
+  <p style="margin-top: 2em;">
+    💰 <a href="https://buy.stripe.com/your-ticket-link" target="_blank">ロバに返事をもらう（有料）</a>
+  </p>
+
 </body>
 </html>
