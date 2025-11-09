@@ -47,9 +47,21 @@
       ロバが返事をすることもあります（有料）。
     </p>
     <div class="links">
-      <a href="https://example.com/form">▶ 言えないことを書く</a>
+      <a href="https://formspree.io/f/xovyanvl">▶ 言えないことを書く</a>
       <a href="https://example.com/ticket">▶ ロバに返事をもらう</a>
     </div>
   </div>
+#フォーム#
+<form action="https://formspree.io/f/xovyanvl" method="POST">
+  <label for="message">あなたの言いたいこと：</label><br>
+  <textarea name="message" id="message" rows="10" cols="50" required></textarea><br><br>
+
+  <label>
+    <input type="checkbox" name="anonymous_ok" value="yes">
+    この内容を匿名で公開してもいいです
+  </label><br><br>
+
+  <input type="submit" value="ロバの耳にささやく">
+</form>
 </body>
 </html>
