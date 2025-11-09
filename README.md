@@ -1,16 +1,24 @@
-## Hi there 👋
+# ロバのみみ
 
-<!--
-**roba-mimi/roba-mimi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ここは「バーチャル王様の耳はロバの耳」（ロバ耳）プロジェクトです。
 
-Here are some ideas to get you started:
+## なにこれ？
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+言いたいけど言えない、誰にも話せないこと、ありませんか？
+
+「ロバの耳」は、そんなひとことを誰かにそっと話す場所。
+投げ銭（有料）で相談も受け付けています。ロバ耳はただ聞くだけですが、ときどき答えます。
+
+## 利用方法（準備中）
+
+- 書き込みフォーム（準備中）
+- チケット購入ページ（準備中）
+
+## なぜ GitHub？
+
+ロバ耳は、広告やSNSの喧騒から離れた場所にひっそり開かれた穴。  
+GitHub Pages なら、それができる気がしたからです。
+
+---
+This is a side project by a Japanese translator.  
+Sometimes we need a place to speak, even if no one is listening.
